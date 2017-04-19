@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TapAttack</string>
+    <string name="go_button">start the game</string>
+    <string name="app_about">Тапай быстрее! Тапай сильнее! \n Затапай противника!</string>
+    <string name="target_taps">Тапов до победы</string>
+    <string name="taps_number_hint">Taps to win</string>
+    <string name="choose_taps_button">Attack</string>
+    <string name="winner_attack">Tap-Tap-Tap!!!</string>
+    <string name="new_game">new game</string>
+    <string name="winner_one">The winner is Player 1</string>
+    <string name="winner_two">The winner is Player 2</string>
+
+</resources>
