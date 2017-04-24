@@ -1,4 +1,4 @@
-package com.example.asprokopov.tapattack;
+package com.bugsnguns.asprokopov.tapattack;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
