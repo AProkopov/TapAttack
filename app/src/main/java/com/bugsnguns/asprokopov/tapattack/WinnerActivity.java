@@ -16,7 +16,7 @@ public class WinnerActivity extends AppCompatActivity {
         textViewWinner.setText(String.valueOf(BattleActivity.winner));
     }
 
-    protected void onNewGame(View v){
+    public void onNewGame(View v){
         BattleActivity.score_player_one = 0;
         BattleActivity.score_player_two = 0;
         BattleActivity.winner = 0;

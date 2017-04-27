@@ -18,7 +18,7 @@ public class ChooseTargetActivity extends AppCompatActivity {
 
     /*при нажатии кнопки Attack из поля ввода считывается количество тапов до победы
     а также отправляется осуществляется переход на экран сражения */
-    protected void onAttack(View v){
+    public void onAttack(View v){
         EditText editText = (EditText) findViewById(R.id.taps);
         try {
             String string = editText.getText().toString();

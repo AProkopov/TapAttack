@@ -20,7 +20,7 @@ public class BattleActivity extends AppCompatActivity {
 
     }
 
-    protected void onTap_one(View v){
+    public void onTap_one(View v){
         score_player_one = score_player_one + 1;
 
         TextView textViewOne = (TextView)findViewById(R.id.score_one);
@@ -34,7 +34,7 @@ public class BattleActivity extends AppCompatActivity {
 
     }
 
-    protected void onTap_two(View v){
+    public void onTap_two(View v){
         score_player_two = score_player_two + 1;
 
         TextView textViewTwo = (TextView)findViewById(R.id.score_two);

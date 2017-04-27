@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //открываем экран для ввода количества тапов, необх-х для победы
-    protected void onStartTheGame(View v){
+    public void onStartTheGame(View v){
         Intent intent = new Intent(this, ChooseTargetActivity.class);
         startActivity(intent);
 
